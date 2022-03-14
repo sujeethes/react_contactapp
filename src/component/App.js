@@ -42,7 +42,7 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
   }, [contacts]);
   // hi there
-  //check stashing and merging and 2 developers same line
+  //check stashing and merging and 2 developers and  added new text and pushed
   return (
     <div className="ui container">
       <Router>
