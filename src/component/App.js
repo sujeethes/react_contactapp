@@ -42,6 +42,7 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
   }, [contacts]);
   // hi there
+  //check stashing
   return (
     <div className="ui container">
       <Router>
